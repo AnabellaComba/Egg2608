@@ -1,0 +1,18 @@
+Algoritmo IntercambiodeVariables
+	Definir num1 Como Entero
+	Definir num2 Como Entero
+	Definir auxinum Como Entero
+	
+	Escribir " Ingrese los valores de los números 1 y 2"
+	
+	Leer num1, num2
+	
+	auxinum = num1
+	
+	num1 = num2
+	
+	num2 = auxinum
+	
+	Escribir " Se corrige el orden de los valores ingresados de la siguiente manera:", num1," ", num2
+	
+FinAlgoritmo

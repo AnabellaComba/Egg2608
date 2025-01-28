@@ -1,0 +1,15 @@
+Algoritmo Consumodelauto
+	Definir litrosdecombustible, kilometrosrecorridos, consumo Como Real
+	
+	Escribir " Ingrese el la cantidad de litros de combustible:"
+	
+	Leer litrosdecombustible
+	
+	Escribir " Ingrese el la cantidad de kilómetros recorridos:"
+	
+	Leer kilometrosrecorridos
+	
+	consumo =  kilometrosrecorridos / litrosdecombustible
+	
+	Escribir "Los siguientes valores corresponden según lo indicado a su consumo:", consumo
+FinAlgoritmo

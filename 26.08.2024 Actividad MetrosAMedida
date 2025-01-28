@@ -1,0 +1,21 @@
+Algoritmo MetrosAMedida
+	Definir metro, centimetro, milimetro, pulgada Como Real
+	
+	centimetro = 100
+	
+	milimetro = 1000
+	
+	pulgada = centimetro / 2.54
+	
+	Escribir " Ingrese el la cantidad de metros que desea calcular";
+	
+	Leer metro
+	
+	
+	Escribir "Los siguientes valores corresponden según los Metros (",metro, ") indicado:"
+	
+    Escribir centimetro * metro," Centímetros." 
+    Escribir milimetro * metro, " Milímetros."
+	Escribir pulgada * metro," Pulgadas." 
+	
+FinAlgoritmo

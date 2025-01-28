@@ -1,0 +1,11 @@
+Algoritmo PromedioPrecio
+	Definir precio1, precio2, precio3 Como Real
+	Definir promedio Como Real
+	Definir producto Como Caracter
+	Escribir " Ingrese el nombre del producto"
+	Leer producto
+	Escribir "Por favor ingresa los 3 precios del producto (", producto,") que se identificó en los diferentes establecimientos:"
+	Leer precio1, precio2, precio3
+	promedio = (precio1 + precio2 + precio3)/3
+	Escribir "El promedio del precio del producto seleccionado es:", promedio
+FinAlgoritmo

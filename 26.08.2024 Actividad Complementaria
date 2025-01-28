@@ -1,0 +1,81 @@
+Algoritmo calcularRemuneracionVendedor
+			Definir salarioBase, venta, totalVentas, totalComision, remuneracionTotal Como Real
+			Definir numVentas Como Entero
+			
+			Escribir "Ingrese el salario base del vendedor: "
+			Leer salarioBase
+			
+			Escribir "Ingrese la cantidad de ventas realizadas en el mes: "
+			Leer numVentas
+			
+			totalVentas <- 0
+			
+			Para i <- 1 Hasta numVentas
+				Escribir "Ingrese el valor de la venta ", i, ": "
+				Leer venta
+				totalVentas <- totalVentas + venta
+			FinPara
+			
+			totalComision <- totalVentas * 0.10
+			remuneracionTotal <- salarioBase + totalComision
+			
+			Escribir "La remuneración total del vendedor es: ", remuneracionTotal
+FinAlgoritmo
+
+Algoritmo invertirNumeroDosCifras
+    Definir numero, decena, unidad, numeroInvertido Como Entero
+    
+    Escribir "Ingrese un número de dos cifras: "
+    Leer numero
+    
+    decena <- numero / 10
+    unidad <- numero % 10
+    
+    numeroInvertido <- unidad * 10 + decena
+    
+    Escribir "El número invertido es: ", numeroInvertido
+FinAlgoritmo
+
+Algoritmo convertirDias
+    Definir dias, horas, minutos, segundos Como Entero
+    
+    Escribir "Ingrese la cantidad de días: "
+    Leer dias
+    
+    horas <- dias * 24
+    minutos <- horas * 60
+    segundos <- minutos * 60
+    
+    Escribir "Horas: ", horas
+    Escribir "Minutos: ", minutos
+    Escribir "Segundos: ", segundos
+FinAlgoritmo
+
+Algoritmo calcularConsumoCombustible
+    Definir litros, kilometros, consumo Como Real
+    
+    Escribir "Ingrese la cantidad de litros de combustible cargados: "
+    Leer litros
+    
+    Escribir "Ingrese la cantidad de kilómetros recorridos: "
+    Leer kilometros
+    
+    Si litros > 0 Entonces
+        consumo <- kilometros / litros
+        Escribir "El consumo de combustible es: ", consumo, " km/lt"
+    Sino
+        Escribir "La cantidad de litros debe ser mayor que cero."
+    FinSi
+FinAlgoritmo
+
+Algoritmo calcularEdadEnMeses
+    Definir edadAnios, edadMeses Como Entero
+    
+    Escribir "Ingrese su edad actual en años: "
+    Leer edadAnios
+    
+    edadMeses <- edadAnios * 12
+    
+    Escribir "La edad en meses es: ", edadMeses
+FinAlgoritmo
+
